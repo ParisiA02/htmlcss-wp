@@ -32,7 +32,6 @@ section{
     background-repeat: no-repeat;
     height: 350px;
     border-radius: 10px;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
 }
 .container{
     width: 400px;
@@ -77,14 +76,46 @@ h2{
     /* debugging rules */
     background-color: rgb(171, 207, 231);    
 }
+.left-image{
+    width: 100%;
+    height: 140px;
+    background-image: url("../img/img-1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-position: center;
+}
+.title{
+    margin-top: 10px;
+}
+.text{
+    font-size: 10px;
+}
 .mainblock{
     width:58%;
     margin: 15px 1%;
     float: left;
     /* debugging rules */
     height: 360px;
-    background-color: rgb(171, 207, 231);
-    
+    background-color: rgba(171, 207, 231, 0.486);
+}
+.main-image{
+    width: 100%;
+    height: 140px;
+    background-image: url("../img/banner-2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-position: center;
+}
+.right-image{
+    width: 100%;
+    height: 140px;
+    background-image: url("../img/img-3.jpg");
+    background-size: 140%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-position: center;
 }
 footer{
     width: 60%;
