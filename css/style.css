@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Montserrat",sans-serif;
 }
+/* header styling */
 header{
     width: 60%;
     height: 100px;
@@ -23,6 +24,7 @@ li{
     display: inline;
     color: rgb(138, 138, 138);
 }
+/* first section */
 section{
     width: 60%;
     margin: 0 auto 20px;
@@ -44,11 +46,10 @@ h3{
 h6{
     color: white;
 }
+/* second section */
 .clearfix{
     width: 60%;
     margin: 0 auto;
-    /* debugging rules */
-    background-color: rgb(0, 134, 255);
 }
 .clearfix::after{
     content: "";
@@ -58,8 +59,6 @@ h6{
 .bar{
     width: 100%;
     height: 60px;
-    /* debugging rules */
-    background-color: rgb(171, 207, 231);
 }
 h2{
     padding-top: 10px;
@@ -68,13 +67,12 @@ h2{
 .leadership-secondtitle{
     color: rgb(138, 138, 138);
 }
+/* blocks styling */
 .block{
     width: 20%;
     float: left;
     height: 360px;
-    margin: 15px 0;
-    /* debugging rules */
-    background-color: rgb(171, 207, 231);    
+    margin: 15px 0;  
 }
 .left-image{
     width: 100%;
@@ -89,15 +87,13 @@ h2{
     margin-top: 10px;
 }
 .text{
+    margin-top: 5px;
     font-size: 10px;
 }
 .mainblock{
     width:58%;
     margin: 15px 1%;
     float: left;
-    /* debugging rules */
-    height: 360px;
-    background-color: rgba(171, 207, 231, 0.486);
 }
 .main-image{
     width: 100%;
@@ -117,10 +113,13 @@ h2{
     border-radius: 10px;
     background-position: center;
 }
+/* footer */
 footer{
     width: 60%;
     height: 40px;
     margin: 3.5px auto 20px;
-    /* debugging rules*/
-    background-color: rgb(136, 1, 254);
+    text-align: center;
+}
+.heart{
+    color: red;
 }
